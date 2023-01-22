@@ -29,4 +29,4 @@
 >Độ phức tạp bộ nhớ được ước lượng dựa vào lượng bộ nhớ cần thêm cho một module được thực thi. Với vòng lặp, trình biên dịch hầu như không cần thêm bộ nhớ. Trình biên dịch sẽ tự cập nhật giá trị của biến được sử dụng ngay trong vòng lặp. Nhưng với đệ qui, hệ thống cần lưu giữ các bản ghi động mỗi khi một lời gọi đệ qui được tạo. Do đó có thể nói rằng, độ phức tạp bộ nhớ của hàm đệ qui là cao hơn so với vòng lặp.
 
 
-## Code Examples :   Factorial.cpp (Giai thừa) ,   Exponential.cpp (Lũy Thừa)    , GreatestCommon.cpp (Ước chung lớn nhất)
+## Code Examples :   Factorial.cpp (Giai thừa) ,   Exponential.cpp (Lũy Thừa)    , GreatestCommon.cpp (Ước chung lớn nhất) , Fibonacci.cpp (Dãy Fibonachi) , ChangeBinary.cpp (Chuyển từ num -> binary)
