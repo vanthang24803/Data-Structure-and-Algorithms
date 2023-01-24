@@ -54,5 +54,18 @@
 
 
 ## Code Examples : DeleteElement.cpp
+
+` Truy cập các phần tử trong Danh sách liên kết đơn `
+
+>Một nhược điểm của danh sách liên kết so với mảng là khó truy vấn các phẩn tử, không thể sử dụng toán tử [] như mảng, mà phải thông qua phần tử đầu hoặc cuối .
+
+## Code Examples : GetElement.cpp
                
+
+` Thay đổi vị trí Member trong Danh sách liên kết đơn `
+
+>Nhập vào một số nguyên dương n, tiếp theo là n số nguyên của một dãy số, hãy cài đặt nó vào một danh sách liên kết đơn. Tiếp theo nhập hai số nguyên a và b.
+>Hãy thay đổi giá trị của những phần tử có giá trị a thành giá trị b. In ra màn hình danh sách đó, sau một phần tử có đúng một khoảng trắng
+
+## Code Example : Convert.cpp
 
