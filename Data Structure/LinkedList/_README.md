@@ -69,3 +69,7 @@
 
 ## Code Example : Convert.cpp
 
+
+` Xóa phần tử lớn nhất trong Danh sách lên kết đơn `
+
+## Code Example : RemoveMax.cpp
