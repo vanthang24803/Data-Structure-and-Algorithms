@@ -73,3 +73,13 @@
 ` Xóa phần tử lớn nhất trong Danh sách lên kết đơn `
 
 ## Code Example : RemoveMax.cpp
+
+## Danh Sách Liên Kết Đôi (Doubly Linked List)
+
+` Khái niệm `
+>Danh Sách Liên Kết Đôi (Doubly Linked List) là một tập hợp các Node được phân bố củ động sao cho Mỗi [Node] chứa :
+    >Một giá trị (Data)
+    >Một con trỏ [Next] trỏ đến phần tử kế tiếp của danh sách liên kết đó , nếu con trỏ là [NULL] nghĩa là đó là phần tử cuối cùng của DouList
+    >Một con trỏ [Pre] sẽ trỏ tới phần tử trước của Danh sách Liên kết đó , Nếu con trỏ mà trỏ tới [NULL] nghĩa là đó là 1 phần tử đầu của DouList .
+
+## Code Example : DouList.cpp
