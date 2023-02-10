@@ -83,3 +83,21 @@
     >Một con trỏ [Pre] sẽ trỏ tới phần tử trước của Danh sách Liên kết đó , Nếu con trỏ mà trỏ tới [NULL] nghĩa là đó là 1 phần tử đầu của DouList .
 
 ## Code Example : DouList.cpp
+
+` Thêm phần tử vào đầu Danh Sách Liên Kết Đôi `
+  >Thêm vào đầu 
+  >Thêm vào cuối 
+  >Thêm vào phần tử khác 
+
+## Code Example : AddDouList.cpp
+
+` Xóa Phần Tử ở Danh Sách Liên Kết Đôi `
+>Xóa phần tử ở Danh Sách Liên Kết Đôi Có Độ Phức Tạp O(1) , tương tự như Danh sách Liên kết Đơn
+  >Xóa phần tử đầu : Để xóa phần tử đầu tiên trong danh sách liên kết đôi l, ta phải quan tâm tới phần tử l->head->next, chuyển liến kết pre của nó về [NULL], cuối cùng là cập nhật l->head = l->head->next, và nhớ xóa vùng nhớ đã cập phát cho [node] đã xóa.
+  >Xóa phần tử cuối : Để xóa phần tử cuối cùng trong danh sách liên kết đôi l, ta phải quan tâm tới phần tử l->tail->pre, chuyển liến kết next của nó về [NULL], cuối cùng là cập nhật l->tail= l->tail->pre, và nhớ xóa vùng nhớ đã cập phát cho [node] đã xóa.
+  >Xóa phần tử khác : Để xóa phần tử vị trí k thì ta cần phải xử lý hai phần từ ở vị trí k-1 và k+1.
+
+## Code Example : RemoveDouList.cpp  
+
+
+
